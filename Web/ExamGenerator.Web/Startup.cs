@@ -1,30 +1,30 @@
-﻿namespace ExamGenerator.Web
+﻿using System.Reflection;
+
+using ExamGenerator.Data;
+using ExamGenerator.Data.Common;
+using ExamGenerator.Data.Common.Repositories;
+using ExamGenerator.Data.Models;
+using ExamGenerator.Data.Repositories;
+using ExamGenerator.Data.Seeding;
+using ExamGenerator.Services.Data;
+using ExamGenerator.Services.Mapping;
+using ExamGenerator.Services.Messaging;
+using ExamGenerator.Web.ViewModels;
+
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+
+namespace ExamGenerator.Web
 {
-    using System.Reflection;
-
-    using ExamGenerator.Data;
-    using ExamGenerator.Data.Common;
-    using ExamGenerator.Data.Common.Repositories;
-    using ExamGenerator.Data.Models;
-    using ExamGenerator.Data.Repositories;
-    using ExamGenerator.Data.Seeding;
-    using ExamGenerator.Services.Data;
-    using ExamGenerator.Services.Mapping;
-    using ExamGenerator.Services.Messaging;
-    using ExamGenerator.Web.ViewModels;
-
-    using Microsoft.AspNetCore.Builder;
-    using Microsoft.AspNetCore.Hosting;
-    using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Identity;
-    using Microsoft.AspNetCore.Identity.UI;
-    using Microsoft.AspNetCore.Identity.UI.Services;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.EntityFrameworkCore;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Logging;
-
     public class Startup
     {
         private readonly IConfiguration configuration;
