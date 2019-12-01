@@ -1,17 +1,17 @@
-﻿namespace ExamGenerator.Data
+﻿using System;
+using System.Linq;
+using System.Reflection;
+using System.Threading;
+using System.Threading.Tasks;
+
+using ExamGenerator.Data.Common.Models;
+using ExamGenerator.Data.Models;
+
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace ExamGenerator.Data
 {
-    using System;
-    using System.Linq;
-    using System.Reflection;
-    using System.Threading;
-    using System.Threading.Tasks;
-
-    using ExamGenerator.Data.Common.Models;
-    using ExamGenerator.Data.Models;
-
-    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-    using Microsoft.EntityFrameworkCore;
-
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
         private static readonly MethodInfo SetIsDeletedQueryFilterMethod =
@@ -25,6 +25,14 @@
         }
 
         public DbSet<Setting> Settings { get; set; }
+
+        public DbSet<Question> Questions { get; set; }
+
+        public DbSet<Subject> Subjects { get; set; }
+
+        public DbSet<QuestionType> QuestionTypes { get; set; }
+        
+        public DbSet<Answer> Answers { get; set; }
 
         public override int SaveChanges() => this.SaveChanges(true);
 
