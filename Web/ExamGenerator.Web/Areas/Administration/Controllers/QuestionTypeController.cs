@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace ExamGenerator.Web.Areas.Administration.Controllers
 {
-    public class QuestionTypeController:AdministrationController
+    public class QuestionTypeController : AdministrationController
     {
-        private readonly QuestionTypeService questionTypeService;
+        private readonly IQuestionTypeService questionTypeService;
 
-        public QuestionTypeController(QuestionTypeService questionTypeService)
+        public QuestionTypeController(IQuestionTypeService questionTypeService)
         {
             this.questionTypeService = questionTypeService;
         }
@@ -21,7 +21,7 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
 
         public async Task<IActionResult> Create(QuestionTypeInputModel model)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(model);
             }

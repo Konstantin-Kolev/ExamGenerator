@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ExamGenerator.Services.Data
 {
-    public class QuestionTypeService:IQuestionTypeService
+    public class QuestionTypeService : IQuestionTypeService
     {
         private readonly IDeletableEntityRepository<QuestionType> repository;
 
@@ -19,8 +19,7 @@ namespace ExamGenerator.Services.Data
 
         public async Task Add(QuestionTypeInputModel model)
         {
-            var questionType = new QuestionType();
-            questionType.Type = model.Type;
+            QuestionType questionType = model.To<QuestionType>();
             await repository.AddAsync(questionType);
             await repository.SaveChangesAsync();
         }

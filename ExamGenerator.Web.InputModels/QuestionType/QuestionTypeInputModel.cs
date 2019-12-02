@@ -6,9 +6,12 @@ using System.Text;
 
 namespace ExamGenerator.Web.InputModels.QuestionType
 {
-    public class QuestionTypeInputModel:IMapFrom<Data.Models.QuestionType>
+    public class QuestionTypeInputModel : IMapTo<Data.Models.QuestionType>
     {
         [Required]
         public string Type { get; set; }
+
+        [Required]
+        public int SubjectId { get; set; }
     }
 }
