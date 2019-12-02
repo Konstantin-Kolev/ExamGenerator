@@ -28,4 +28,8 @@
     <ProjectReference Include="..\ExamGenerator.Web.Infrastructure\ExamGenerator.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\ExamGenerator.Web.ViewModels\ExamGenerator.Web.ViewModels.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Administration\ViewModels\" />
+  </ItemGroup>
 </Project>

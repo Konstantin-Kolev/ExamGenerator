@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using ExamGenerator.Data.Common.Repositories;
 using ExamGenerator.Data.Models;
 using ExamGenerator.Services.Mapping;
@@ -20,8 +17,7 @@ namespace ExamGenerator.Services.Data
 
         public async Task Add(SubjectInputModel model)
         {
-            var subject = new Subject();
-            subject.Name = model.Name;
+            Subject subject = model.To<Subject>();
             await repository.AddAsync(subject);
             await repository.SaveChangesAsync();
         }

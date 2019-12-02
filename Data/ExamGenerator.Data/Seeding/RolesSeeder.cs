@@ -1,15 +1,15 @@
-﻿namespace ExamGenerator.Data.Seeding
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+using ExamGenerator.Common;
+using ExamGenerator.Data.Models;
+
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace ExamGenerator.Data.Seeding
 {
-    using System;
-    using System.Linq;
-    using System.Threading.Tasks;
-
-    using ExamGenerator.Common;
-    using ExamGenerator.Data.Models;
-
-    using Microsoft.AspNetCore.Identity;
-    using Microsoft.Extensions.DependencyInjection;
-
     internal class RolesSeeder : ISeeder
     {
         public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)
