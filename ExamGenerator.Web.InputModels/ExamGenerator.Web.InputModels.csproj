@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data\ExamGenerator.Data.Models\ExamGenerator.Data.Models.csproj" />
+    <ProjectReference Include="..\Services\ExamGenerator.Services.Mapping\ExamGenerator.Services.Mapping.csproj" />
+  </ItemGroup>
+
+</Project>
