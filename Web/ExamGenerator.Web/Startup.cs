@@ -9,6 +9,7 @@ using ExamGenerator.Data.Seeding;
 using ExamGenerator.Services.Data;
 using ExamGenerator.Services.Mapping;
 using ExamGenerator.Services.Messaging;
+using ExamGenerator.Web.InputModels.Subject;
 using ExamGenerator.Web.ViewModels;
 
 using Microsoft.AspNetCore.Builder;
@@ -105,7 +106,7 @@ namespace ExamGenerator.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly);
+            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly, typeof(SubjectInputModel).Assembly);
 
             // Seed data on application startup
             using (var serviceScope = app.ApplicationServices.CreateScope())

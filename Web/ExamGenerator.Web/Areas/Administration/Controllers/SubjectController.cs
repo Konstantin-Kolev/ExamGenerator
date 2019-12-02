@@ -1,18 +1,15 @@
 ﻿using ExamGenerator.Services.Data;
 using ExamGenerator.Web.InputModels.Subject;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ExamGenerator.Web.Areas.Administration.Controllers
 {
     public class SubjectController:AdministrationController
     {
-        private readonly SubjectService subjectService;
+        private readonly ISubjectService subjectService;
 
-        public SubjectController(SubjectService subjectService)
+        public SubjectController(ISubjectService subjectService)
         {
             this.subjectService = subjectService;
         }

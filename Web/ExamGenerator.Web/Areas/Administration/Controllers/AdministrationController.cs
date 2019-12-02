@@ -1,13 +1,13 @@
-﻿namespace ExamGenerator.Web.Areas.Administration.Controllers
+﻿using ExamGenerator.Common;
+using ExamGenerator.Web.Controllers;
+
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ExamGenerator.Web.Areas.Administration.Controllers
 {
-    using ExamGenerator.Common;
-    using ExamGenerator.Web.Controllers;
-
-    using Microsoft.AspNetCore.Authorization;
-    using Microsoft.AspNetCore.Mvc;
-
     [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
-    [Area("Administration")]
+    [Area(GlobalConstants.AdministrationArea)]
     public class AdministrationController : BaseController
     {
     }
