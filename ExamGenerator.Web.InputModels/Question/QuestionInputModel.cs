@@ -11,10 +11,8 @@ namespace ExamGenerator.Web.InputModels.Question
         [Required]
         public string Content { get; set; }
 
-        [Required]
         public int Score { get; set; }
 
-        [Required]
         public int QuestionTypeId { get; set; }
 
         [Required]
