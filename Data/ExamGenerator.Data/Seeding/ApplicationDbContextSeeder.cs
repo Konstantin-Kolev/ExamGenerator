@@ -27,7 +27,10 @@ namespace ExamGenerator.Data.Seeding
                           {
                               new RolesSeeder(),
                               new SettingsSeeder(),
-                              new AdminSeeder()
+                              new AdminSeeder(),
+                              new SubjectSeeder(),
+                              new QuestionTypeSeeder(),
+                              new QuestionSeeder()
                           };
 
             foreach (var seeder in seeders)

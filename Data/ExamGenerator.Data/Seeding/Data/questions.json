@@ -1,0 +1,431 @@
+[
+  {
+    "Content": "В кой ред е допусната правописна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 1,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "вървящи, стреляли, запели",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "утроявам, овиквам, укупирам",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "ситуации, пороища, медийни",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "дръвник, закърпвам, вдлъбнат",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кой ред е допусната правописна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 1,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "водолаз, мираж, кардиолог",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "искрен, братовчедка, разтвор",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "тягостна, шестотин, прелест",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "сбирка, сгъвам, сглобявам",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната правописна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 1,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "Нуждаем се от специалисти, които да отговарят за техническата поддръжка на машините.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "В началото на летния сезон предстои да започнат снимките на най-новия български сериал.",
+        "IsCorrect": true,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Учените предупредиха, че популацията на египетските лешояди намалява с 7% на година.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "При почистването на кошерите пчеларят задължително трябва да е с предпазно облекло.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната правописна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 1,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "Популярният актьор обяви, че е решил да сложи край на своята 50-годишна кариера в театъра и в киното.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Изложбата на известния художник модернист беше открита миналата седмица в новата галерия.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Целта на всеки електронен търговец е да привлече възможно най-много посетители на своята уеб-страница.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "В интервю боксьорът сподели, че винаги е бил възпитаван да се труди и да не чака успехите наготово.",
+        "IsCorrect": true,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната правописна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 2,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "Националното         състезание      по    счетоводство       ще    се   проведе      в   една     от Професионалните гимназии в столицата.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "По време на посещението си в града всички гости ще се запознаят с особеностите на архитектурата на барока.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Утре   експертите     ще  представят     публично     обобщените      резултати    от  проведеното оценяване по математика.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "През седмицата в Панагюрище тържествено ще бъде отбелязана годишнината от рождението на Райна Княгиня.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната грешка при членуването?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 2,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "В сряда ще бъдат обявени имената на допуснатите и на недопуснатите до участие в конкурса кандидати.",
+        "IsCorrect": true,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "В жилищния комплекс, който е близо до парка, се намира новият и просторен апартамент на сестра ми.",
+        "IsCorrect": true,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "С изненада установихме, че високият млад господин в коридора е санитарния инспектор за нашия район.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Съвсем скоро новият ми съквартирант ще бъде назначен на работа в Агенцията за социално подпомагане.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната граматична грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 3,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "През цялата година Рилският и Троянският манастири са сред най-посещаваните забележителности в страната.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "За да отговорим на голямото търсене, ще пуснем за продажба в дистрибуторската мрежа още билети за концерта.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Пресичайки внимателно улицата на пешеходната пътека, ние си гарантираме безопасно преминаване.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Имам намерение преди утрешното заседание да се срещна и да се запозная с всички нови участници в проекта.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната пунктуационна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 3,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "Над притихналото в мрака планинско село, яростно зави ураганен вятър.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Зарадвано от неочаквания подарък, детето силно прегърна своята майка.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Мъжете, седящи край огъня, протягаха измръзнали ръце към пламъците.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Ние, честно казано, положихме доста усилия при подготовката за изпита.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое изречение е допусната пунктуационна грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 4,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "Комфорт, удобство и приятна атмосфера за хранене и забавления предлага ресторантът на хотела.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Късно осъзнахме грешките, които бяхме допуснали през всичките тези години, и причините за тях.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Чудех се, докато вървях към офиса си, кой ли беше този странен господин с кафявото кожено яке.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "Командирът мълчеше и войникът реши, че ако отново се опита може би ще успее да го убеди.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "В кое от изреченията НЕ е допусната лексикална грешка?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 4,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "Талантът на актрисата въздействаше отблагодаряващо върху публиката.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "За участие във финалния етап на литературния конкурс бяха селектирани и подбрани десет стихотворения.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "След приключването на финансовата година директорът симулира служителите с парични премии.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "В миналото златото и среброто са се добивали по твърде примитивен начин.",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Content": "Кое фразеологично словосъчетание е синоним на израза много съм слаб?",
+    "Subject": null,
+    "SubjectId": 1,
+    "Score": 1,
+    "QuestionTypeId": 4,
+    "QuestionType": null,
+    "Answers": [
+      {
+        "Content": "свивам се в черупката си",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "броят ми се ребрата",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "минавам през сито и през решето",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      },
+      {
+        "Content": "не съм сложил залък в устата си",
+        "IsCorrect": false,
+        "QuestionId": 0,
+        "Question": null,
+        "Id": 0
+      }
+    ],
+    "Id": 0
+  }
+]
