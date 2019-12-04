@@ -9,6 +9,7 @@
     <ProjectReference Include="..\..\Data\ExamGenerator.Data.Common\ExamGenerator.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\ExamGenerator.Data.Models\ExamGenerator.Data.Models.csproj" />
     <ProjectReference Include="..\..\ExamGenerator.Web.InputModels\ExamGenerator.Web.InputModels.csproj" />
+    <ProjectReference Include="..\..\Web\ExamGenerator.Web.ViewModels\ExamGenerator.Web.ViewModels.csproj" />
     <ProjectReference Include="..\ExamGenerator.Services.Mapping\ExamGenerator.Services.Mapping.csproj" />
   </ItemGroup>
 
