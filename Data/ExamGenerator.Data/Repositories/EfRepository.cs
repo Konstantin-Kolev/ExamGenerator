@@ -3,7 +3,7 @@
     using System;
     using System.Linq;
     using System.Threading.Tasks;
-
+    using ExamGenerator.Common.Exceptions;
     using ExamGenerator.Data.Common.Repositories;
 
     using Microsoft.EntityFrameworkCore;
@@ -43,5 +43,17 @@
         public Task<int> SaveChangesAsync() => this.Context.SaveChangesAsync();
 
         public void Dispose() => this.Context.Dispose();
+
+        public async Task<TEntity> FindAsync(int id)
+        {
+            TEntity model = await DbSet.FindAsync(id);
+
+            if (model == null)
+            {
+                throw new EntityNotFoundException(typeof(TEntity).Name);
+            }
+
+            return model;
+        }
     }
 }
