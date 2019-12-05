@@ -8,6 +8,6 @@ namespace ExamGenerator.Services.Data
 {
     public interface IQuestionTypeService
     {
-        public Task Add(QuestionTypeInputModel model);
+        Task Add(QuestionTypeInputModel model);
     }
 }
