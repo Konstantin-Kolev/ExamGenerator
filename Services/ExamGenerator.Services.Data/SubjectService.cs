@@ -48,8 +48,7 @@ namespace ExamGenerator.Services.Data
 
         public async Task<List<SubjectViewModel>> GetAll()
         {
-            List<SubjectViewModel> subjects = new List<SubjectViewModel>();
-            subjects = repository.All().To<SubjectViewModel>().ToList();
+            List<SubjectViewModel> subjects = repository.All().To<SubjectViewModel>().ToList();
             return subjects;
         }
     }

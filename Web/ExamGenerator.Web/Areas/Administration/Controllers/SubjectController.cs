@@ -25,7 +25,7 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
                 return View(model);
             }
             await subjectService.Add(model);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction(nameof(GetAll));
         }
 
         public IActionResult Edit(int id)
@@ -45,7 +45,6 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
             await subjectService.Update(model);
 
             return RedirectToAction("Index", "Home");
-            //redirect to page with all subjects
         }
 
         public IActionResult Delete(int id)
@@ -64,8 +63,7 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
        
         public async Task<IActionResult> GetAll()
         {
-            await subjectService.GetAll();
-            return RedirectToAction("Index", "Home");
+            return View(await subjectService.GetAll());
         }
     }
 }
