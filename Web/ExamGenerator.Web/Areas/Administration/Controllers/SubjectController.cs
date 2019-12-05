@@ -27,6 +27,7 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
             await subjectService.Add(model);
             return RedirectToAction("Index", "Home");
         }
+
         public IActionResult Edit(int id)
         {
             SubjectEditModel subject = subjectService.GetById<SubjectEditModel>(id);
@@ -44,6 +45,7 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
             await subjectService.Update(model);
 
             return RedirectToAction("Index", "Home");
+            //redirect to page with all subjects
         }
 
         public IActionResult Delete(int id)
@@ -59,11 +61,10 @@ namespace ExamGenerator.Web.Areas.Administration.Controllers
             await subjectService.Delete(id);
             return RedirectToAction("Index", "Home");
         }
-
-        [HttpGet]
-        public async Task<IActionResult> GetAllSubjects()
+       
+        public async Task<IActionResult> GetAll()
         {
-            await subjectService.GetAllSubjects();
+            await subjectService.GetAll();
             return RedirectToAction("Index", "Home");
         }
     }

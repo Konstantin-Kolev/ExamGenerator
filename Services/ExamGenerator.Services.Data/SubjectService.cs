@@ -29,29 +29,27 @@ namespace ExamGenerator.Services.Data
         {
             Subject subject = repository.All().Where(x => x.Id == model.Id).FirstOrDefault();
             subject.Name = model.Name;
-
             repository.Update(subject);
         }
 
         public TDestination GetById<TDestination>(int subjectId)
         {
-            TDestination subject = repository.All().Where(x => x.Id == subjectId).To<TDestination>().FirstOrDefault();
+            TDestination subject = repository.All()
+                .Where(x => x.Id == subjectId)
+                .To<TDestination>()
+                .FirstOrDefault();
             return subject;
         }
-        public async Task<SubjectViewModel> Delete(int id)
+        public async Task Delete(int id)
         {
             Subject subject = repository.All().Where(x => x.Id == id).FirstOrDefault();
-            repository.Delete(subject);
-            return subject.To<SubjectViewModel>();
+            repository.Delete(subject);            
         }
 
-        public async Task<List<SubjectViewModel>> GetAllSubjects()
+        public async Task<List<SubjectViewModel>> GetAll()
         {
             List<SubjectViewModel> subjects = new List<SubjectViewModel>();
-            foreach (var subject in repository.All())
-            {
-                subjects.Add(subject.To<SubjectViewModel>());
-            }
+            subjects = repository.All().To<SubjectViewModel>().ToList();
             return subjects;
         }
     }

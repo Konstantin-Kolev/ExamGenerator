@@ -9,13 +9,14 @@ namespace ExamGenerator.Services.Data
 {
     public interface ISubjectService
     {
-        public Task Add(SubjectInputModel model);
+        Task Add(SubjectInputModel model);
+
         TDestination GetById<TDestination>(int subjectId);
 
         Task Update(SubjectEditModel model);
 
-        Task<SubjectViewModel> Delete(int id);
+        Task Delete(int id);
 
-        Task<List<SubjectViewModel>> GetAllSubjects();
+        Task<List<SubjectViewModel>> GetAll();
     }
 }
