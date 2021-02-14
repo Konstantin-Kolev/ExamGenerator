@@ -102,6 +102,8 @@ namespace ExamGenerator.Web
             services.AddTransient<ISettingsService, SettingsService>();
             services.AddTransient<ISubjectService, SubjectService>();
             services.AddTransient<IQuestionTypeService, QuestionTypeService>();
+            services.AddTransient<IAnswerService, AnswerService>();
+            services.AddTransient<IQuestionService, QuestionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
